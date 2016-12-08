@@ -7,15 +7,6 @@ Built using the following Javascript components:
 * [mysql](https://www.npmjs.com/package/mysql) - Node.js driver for mysql
 * [piping](https://github.com/mdlawson/piping) - Live code reloading without additional binaries
 
-## Installation
-
-```
-$ git clone https://github.com/teamsoo/express-rest-api.git
-$ cd express-rest-api
-$ npm install
-$ node app.js
-```
-
 ## Sample Database Setup
 
 ```mysql
@@ -29,6 +20,14 @@ CREATE TABLE `todo`.`todo_list` ( `id` INT NOT NULL AUTO_INCREMENT ,
 PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
 
+## Installation
+
+```
+$ git clone https://github.com/teamsoo/express-rest-api.git
+$ cd express-rest-api
+$ npm install
+*At this point you can run `node app.js` to test GET request at `http://localhost:4040/todo/`.*
+```
 
 ## Config Database
 See connection.js
