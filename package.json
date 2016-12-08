@@ -1,0 +1,26 @@
+{
+  "name": "express-rest-api",
+  "version": "1.0.0",
+  "description": "sample mysql rest api using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamsoo/express-rest-api.git"
+  },
+  "author": "Phakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamsoo/express-rest-api/issues"
+  },
+  "homepage": "https://github.com/teamsoo/express-rest-api#README",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0",
+    "piping": "^1.0.0-rc.4"
+  },
+  "devDependencies": {}
+}
